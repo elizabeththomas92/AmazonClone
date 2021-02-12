@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+.homepage-ads {
+  height: 50vh;
+  z-index: -1;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.homepage-products-cards {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  /* top: 300px;
+  width: 100%; */
+}
+.homepage-products-cards-details {
+  width: 312px;
+}
+.product-card-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.homepage-bestsellers {
+  /* top: 800px;
+  width: 100%; */
+  padding: 40px;
+}
